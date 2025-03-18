@@ -34,27 +34,38 @@ body {
     object-fit: cover;
 }
 
+/* Header */
 header {
-    background: white;
-    padding: 20px;
     display: flex;
     align-items: center;
+    background: #eceded;
+    color: rgb(9, 9, 9);
+    padding: 15px;
 }
 
 .header-logo {
-    width: 180px;
-    margin-right: 25px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-title {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
+.header-subtitle {
+    font-size: 24px;
+}
+
+
 nav {
-    background: #1E90FF;
-    padding: 10px 0;
+    background: #0b5bdc;
+    padding: 1px 0;
 }
 
 nav ul {
