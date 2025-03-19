@@ -123,7 +123,7 @@ nav ul li a {
     background-color: #e65c00;
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     width: auto;
     border-radius: 0;
@@ -144,18 +144,34 @@ nav ul li a {
 }
 
 .important-links ul {
-    list-style: none;
-    margin: 0;
+    list-style-type: disc; /* Ensures bullets are shown */
+    margin-left: 25px; /* Indents bullets properly */
     padding: 0;
 }
+
+.important-links ul li {
+    margin-bottom: 8px; /* Adds spacing between links */
+    font-size: 20px; /* Increases bullet size */
+    font-weight: bold; /* Makes bullets bold */
+}
+
+.important-links ul li::marker {
+    color: #ff8c00; /* Orange bullet color */
+    font-size: 24px; /* Makes bullets larger */
+    font-weight: bold; /* Makes bullets bold */
+}
+
 .important-links ul li a {
     text-decoration: none;
-    color: #ff8c00; /* Orange links */
+    color: #FFA500; /* Light orange color */
     font-size: 16px;
+    font-weight: normal; /* Links will not be bold */
 }
+
 .important-links ul li a:hover {
     text-decoration: underline;
 }
+
 
 /* Layout for Sections */
 .content-wrapper {
