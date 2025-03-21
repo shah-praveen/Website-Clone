@@ -202,3 +202,56 @@ footer {
     padding: 10px;
     font-size: 12px;
 }
+/* Style Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Dropdown Arrow Styling */
+.dropdown i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #FFA500; /* Light Orange Background */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+/* Style Links Inside Dropdown */
+.dropdown-content a {
+    color: white; /* White Text */
+    padding: 10px 14px; /* Slightly Reduced Padding */
+    display: block;
+    font-weight: normal; /* Remove Bold */
+    font-size: 14px; /* Set Normal Small Font */
+    text-decoration: none;
+}
+
+/* Hover Effect */
+.dropdown-content a:hover {
+    background: #FF8C00; /* Darker Orange on Hover */
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Rotate Arrow When Hovered */
+.dropdown:hover i {
+    transform: rotate(180deg);
+}
+
