@@ -185,7 +185,32 @@
                 </div>
             </div>
         </div>
-        <br>
+      
+        <div class="container">
+            <section class="gallery-section">
+                <div class="gallery" onclick="toggleGallery('photoGallery')">
+                    <h2>PHOTO GALLERY</h2>
+                    <div id="photoGallery" class="gallery-content">
+                        <img src="sample1.png" alt="Photo 1">
+                        <img src="sample2.png" alt="Photo 2">
+                       
+                    </div>
+                </div>
+                <div class="gallery" onclick="toggleGallery('videoGallery')">
+                    <h2>VIDEO GALLERY</h2>
+                    <div id="videoGallery" class="gallery-content">
+                        <video controls>
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <video controls>
+                            <source src="video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </section>
+        </div>
         <footer>
             <p>
                 <strong>Home</strong> | <strong>Feedback</strong> | <strong>Web Information Manager</strong><br>

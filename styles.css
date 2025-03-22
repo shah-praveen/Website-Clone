@@ -255,3 +255,34 @@ footer {
     transform: rotate(180deg);
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+.gallery-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.gallery {
+    width: 48%;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gallery h2 {
+    background: #003366;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+.gallery-content {
+    display: none;
+    padding: 10px;
+}
+.gallery img, .gallery video {
+    width: 100%;
+    margin-top: 10px;
+}
