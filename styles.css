@@ -270,13 +270,29 @@ footer {
     background: #f4f4f4;
     padding: 10px;
     border-radius: 5px;
-    cursor: pointer;
+    position: relative;
 }
-.gallery h2 {
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #003366;
     color: white;
     padding: 10px;
     margin: 0;
+}
+.gallery-title {
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: left;
+}
+.view-more {
+    background: #ff6600;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
 }
 .gallery-content {
     display: none;
